@@ -1,5 +1,5 @@
-const apiKey = "06b8c4e98e8c2d2ed03914faf5df2fad";
-const apiURL = "https://api.openweathermap.org/data/2.5/weather?units=metric&q=";
+const apiKey = "06b8c4e98e8c2dhwsgh03914faf5df2fad";
+const apiURL = "https://api.openweathermap.org/data/2.5/weather?units=metric&q=jajafafarkakaj";
 
 const searchBox = document.querySelector(".search input");
 const searchBtn = document.querySelector(".search button");
@@ -41,3 +41,4 @@ async function checkWeather(city) {
 searchBtn.addEventListener("click", () => {
     checkWeather(searchBox.value);
 });
+
